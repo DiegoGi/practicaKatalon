@@ -1,0 +1,130 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 34,
+        "name": "consulta de reserva",
+        "description": "",
+        "id": "reserva2;consulta-de-reserva;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7797907182,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "ingreso a la pagina y la opcion hoteles",
+            "match": {
+              "location": "reserva2Steps.ingreso_a_la_pagina_y_la_opcion_hoteles()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183289219,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "le de clic en hoteles",
+            "match": {
+              "location": "reserva2Steps.le_de_clic_en_hoteles()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147282271,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "el usuario ingreso el cali",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cali",
+                  "offset": 22
+                }
+              ],
+              "location": "reserva2Steps.el_usuario_ingreso_el_Destino(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187580546,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "el usuario ingreso la 25/01/2019",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25/01/2019",
+                  "offset": 22
+                }
+              ],
+              "location": "reserva2Steps.el_usuario_ingreso_la_fechallegada(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177013641,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "el usuario ingreso las 27/01/2019",
+            "match": {
+              "arguments": [
+                {
+                  "val": "27/01/2019",
+                  "offset": 23
+                }
+              ],
+              "location": "reserva2Steps.el_usuario_ingreso_la_fechaSalida(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 564431,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "deberia visualizar la disponibilidad deacuerdo a la seleccion",
+            "match": {
+              "location": "reserva2Steps.deberia_visualizar_la_disponibilidad_deacuerdo_a_la_seleccion()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "reserva2",
+    "description": "  I want to use this template for my feature file",
+    "id": "reserva2",
+    "keyword": "Feature",
+    "uri": "C:/Users/cvalencia/Katalon Studio/Tiquetes/Include/features/reserva2.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

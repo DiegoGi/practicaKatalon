@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.182238">
+<testcase classname="reserva2" name="consulta de reserva" time="8.182238">
+<system-out><![CDATA[Given ingreso a la pagina y la opcion hoteles...............................passed
+When le de clic en hoteles..................................................passed
+And el usuario ingreso el Medellin..........................................passed
+And el usuario ingreso la 25/01/2019........................................passed
+And el usuario ingreso las 27/01/2019.......................................passed
+Then deberia visualizar la disponibilidad deacuerdo a la seleccion..........passed
+]]></system-out>
+</testcase>
+</testsuite>

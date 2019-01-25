@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="reserva" time="10" tests="1" failures="0" errors="0">
+   <testsuite name="reserva" tests="1" failures="0" errors="0" time="10" timestamp="2019-01-25 10:53:37" hostname="Cvalencia - P-Cvalencia.intergrupo.com" id="Test Suites/reserva">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cvalencia\\Katalon Studio\\Tiquetes\\Reports\\reserva\\20190125_105336"/>
+         <property name="logFiles" value="C:\\Users\\cvalencia\\Katalon Studio\\Tiquetes\\Reports\\reserva\\20190125_105336\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Cvalencia - P-Cvalencia.intergrupo.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.60.27.220"/>
+         <property name="sessionId" value="04f242a7c96a70e2084d411878afc081"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RepostesReservas" classname="Test Cases/RepostesReservas" status="PASSED">
+         <system-out><![CDATA[2019-01-25 10:53:37 - [TEST_CASE][PASSED] - Test Cases/RepostesReservas: Test Cases/RepostesReservas
+
+2019-01-25 10:53:38 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/reserva2.feature"): Feature file: 'Include/features/reserva2.feature' was passed
+
+2019-01-25 10:53:38 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/reserva2.feature' and extract report to folder: 'C:\Users\cvalencia\Katalon Studio\Tiquetes\Reports\reserva\20190125_105336/cucumber_report/1548431618221'...
+
+2019-01-25 10:53:38 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO consulta de reserva: SCENARIO consulta de reserva
+
+2019-01-25 10:53:38 - [TEST_STEP][PASSED] - ingreso a la pagina y la opcion hoteles: ingreso a la pagina y la opcion hoteles
+
+2019-01-25 10:53:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-25 10:53:38 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-25 10:53:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-25 10:53:46 - [MESSAGE][PASSED] - Navigate to 'https://www.tiquetesbaratos.com/' successfully
+
+2019-01-25 10:53:46 - [MESSAGE][PASSED] - ingreso a la pagina y la opcion hoteles
+
+2019-01-25 10:53:46 - [TEST_STEP][PASSED] - le de clic en hoteles: le de clic en hoteles
+
+2019-01-25 10:53:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tiquetes_baratos_2/Page_Tiquetes Baratos - Tiquetes y/a_Hoteles' is clicked on
+
+2019-01-25 10:53:46 - [MESSAGE][PASSED] - le de clic en hoteles
+
+2019-01-25 10:53:46 - [TEST_STEP][PASSED] - el usuario ingreso el cali: el usuario ingreso el cali
+
+2019-01-25 10:53:46 - [MESSAGE][PASSED] - Text 'cali' is set on object 'Object Repository/Page_tiquetes_baratos_2/Page_Tiquetes Baratos - Tiquetes y/input_Destino_PlaceName'
+
+2019-01-25 10:53:46 - [MESSAGE][PASSED] - el usuario ingreso el cali
+
+2019-01-25 10:53:46 - [TEST_STEP][PASSED] - el usuario ingreso la 25/01/2019: el usuario ingreso la 25/01/2019
+
+2019-01-25 10:53:47 - [MESSAGE][PASSED] - Text '25/01/2019' is set on object 'Object Repository/Page_tiquetes_baratos_2/Page_Tiquetes Baratos - Tiquetes y/input_Fecha de llegada_ap_dest'
+
+2019-01-25 10:53:47 - [MESSAGE][PASSED] - el usuario ingreso la 25/01/2019
+
+2019-01-25 10:53:47 - [TEST_STEP][PASSED] - el usuario ingreso las 27/01/2019: el usuario ingreso las 27/01/2019
+
+2019-01-25 10:53:47 - [MESSAGE][PASSED] - Text '27/01/2019' is set on object 'Object Repository/Page_tiquetes_baratos_2/Page_Tiquetes Baratos - Tiquetes y/input_Fecha de salida_ap_dest_'
+
+2019-01-25 10:53:47 - [MESSAGE][PASSED] - el usuario ingreso las 27/01/2019
+
+2019-01-25 10:53:47 - [TEST_STEP][PASSED] - deberia visualizar la disponibilidad deacuerdo a la seleccion: deberia visualizar la disponibilidad deacuerdo a la seleccion
+
+2019-01-25 10:53:47 - [MESSAGE][PASSED] - deberia visualizar la disponibilidad deacuerdo a la seleccion
+
+2019-01-25 10:53:47 - [MESSAGE][PASSED] - Feature file: 'Include/features/reserva2.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-25 10:53:37 - [TEST_SUITE][PASSED] - reserva: Test Cases/RepostesReservas]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

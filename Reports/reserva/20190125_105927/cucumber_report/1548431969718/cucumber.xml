@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.366646">
+<testcase classname="reserva2" name="consulta de reserva" time="0.366646">
+<failure message="com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'&#10;System info: host: 'P-CVALENCIA', ip: '10.60.27.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'&#10;Driver info: driver.version: unknown)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)&#13;&#10;&#9;at com.ig.reservas2.reserva2Steps.ingreso_a_la_pagina_y_la_opcion_hoteles(reserva2Steps.groovy:56)&#13;&#10;&#9;at ✽.ingreso a la pagina y la opcion hoteles(C:/Users/cvalencia/Katalon Studio/Tiquetes/Include/features/reserva2.feature:25)&#13;&#10;"><![CDATA[Given ingreso a la pagina y la opcion hoteles...............................failed
+When le de clic en hoteles..................................................skipped
+And el usuario ingreso el cali..............................................skipped
+And el usuario ingreso la 25/01/2019........................................skipped
+And el usuario ingreso las 27/01/2019.......................................skipped
+Then deberia visualizar la disponibilidad deacuerdo a la seleccion..........skipped
+
+StackTrace:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'P-CVALENCIA', ip: '10.60.27.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at com.ig.reservas2.reserva2Steps.ingreso_a_la_pagina_y_la_opcion_hoteles(reserva2Steps.groovy:56)
+	at ✽.ingreso a la pagina y la opcion hoteles(C:/Users/cvalencia/Katalon Studio/Tiquetes/Include/features/reserva2.feature:25)
+]]></failure>
+</testcase>
+</testsuite>

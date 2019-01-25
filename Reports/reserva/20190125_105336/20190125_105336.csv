@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+reserva,Chrome 71.0.3578.98,,2019-01-25 10:53:37,2019-01-25 10:53:47,10.167s,PASSED
+,,,,,,
+Test Cases/RepostesReservas,Chrome 71.0.3578.98,,2019-01-25 10:53:37,2019-01-25 10:53:47,9.312s,PASSED
+"runFeatureFile(""Include/features/reserva2.feature"")",Chrome 71.0.3578.98,,2019-01-25 10:53:38,2019-01-25 10:53:47,9.081s,PASSED

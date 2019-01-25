@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-25T10:59:35</date>
+  <millis>1548431975988</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/reserva</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">reserva</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/reserva</property>
+</record>
+<record>
+  <date>2019-01-25T10:59:36</date>
+  <millis>1548431976000</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Cvalencia - P-Cvalencia.intergrupo.com</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Cvalencia - P-Cvalencia.intergrupo.com</property>
+</record>
+<record>
+  <date>2019-01-25T10:59:36</date>
+  <millis>1548431976003</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-01-25T10:59:36</date>
+  <millis>1548431976003</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.60.27.220</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.60.27.220</property>
+</record>
+<record>
+  <date>2019-01-25T10:59:36</date>
+  <millis>1548431976004</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-01-25T10:59:36</date>
+  <millis>1548431976214</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/RepostesReservas</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/RepostesReservas</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/RepostesReservas</property>
+  <property name="source">C:\\Users\\cvalencia\\Katalon Studio\\Tiquetes\\Test Cases\\RepostesReservas.tc</property>
+  <property name="isOptional">false</property>
+</record>

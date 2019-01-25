@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="39.586261">
+<testcase classname="reserva2" name="consulta de reserva" time="39.586261">
+<failure message="com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_tiquetes_baratos_2/Page_Tiquetes Baratos - Tiquetes y/Page_Hoteles en Medelln Colombia/span_Hoteles' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_tiquetes_baratos_2/Page_Tiquetes Baratos - Tiquetes y/Page_Hoteles en Medelln Colombia/span_Hoteles' located by 'By.xpath: //nav[@id='breadcrumbs']/span[2]' not found)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)&#13;&#10;&#9;at com.ig.reservas2.reserva2Steps.deberia_visualizar_la_disponibilidad_deacuerdo_a_la_seleccion(reserva2Steps.groovy:92)&#13;&#10;&#9;at ✽.deberia visualizar la disponibilidad deacuerdo a la seleccion(C:/Users/cvalencia/Katalon Studio/Tiquetes/Include/features/reserva2.feature:30)&#13;&#10;"><![CDATA[Given ingreso a la pagina y la opcion hoteles...............................passed
+When le de clic en hoteles..................................................passed
+And el usuario ingreso el cali..............................................passed
+And el usuario ingreso la 25/01/2019........................................passed
+And el usuario ingreso las 27/01/2019.......................................passed
+Then deberia visualizar la disponibilidad deacuerdo a la seleccion..........failed
+
+StackTrace:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_tiquetes_baratos_2/Page_Tiquetes Baratos - Tiquetes y/Page_Hoteles en Medelln Colombia/span_Hoteles' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_tiquetes_baratos_2/Page_Tiquetes Baratos - Tiquetes y/Page_Hoteles en Medelln Colombia/span_Hoteles' located by 'By.xpath: //nav[@id='breadcrumbs']/span[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at com.ig.reservas2.reserva2Steps.deberia_visualizar_la_disponibilidad_deacuerdo_a_la_seleccion(reserva2Steps.groovy:92)
+	at ✽.deberia visualizar la disponibilidad deacuerdo a la seleccion(C:/Users/cvalencia/Katalon Studio/Tiquetes/Include/features/reserva2.feature:30)
+]]></failure>
+</testcase>
+</testsuite>
